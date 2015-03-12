@@ -1,9 +1,9 @@
-/**
+/** 
  * Created by vagrant on 2/7/15.
  */
 import java.util.*;
 
-public class Main {
+public class GroupGen {
     public static void main(String[] args){
         Scanner reader = new Scanner(System.in);
         String names = reader.nextLine();
