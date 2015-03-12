@@ -1,6 +1,8 @@
 /**
  * Created by vagrant on 2/7/15.
  *  review group generator
+ * Output: Returns an array of three emails including 
+ * your email for a given exercise.
  */
 import java.util.*;
 
@@ -13,9 +15,10 @@ public class GroupGen {
         String yourName = null;
         int assigNum = 0;
         
-        //input for review group generator
-        //agopar@csumb.edu,gazapata@csumb.edu,sbharat@csumb.edu,aruval@csumb.edu,mcockman@csumb.edu,arlopez@csumb.edu
-        //arlopez@csumb.edu 1
+        // input for review group generator - you need 6 emails seperated by commas without a space(one needs to be yours)
+        // and then a space is needed. Enter your email following a space and enter the exercise number.
+	// Example:
+        // agopar@csumb.edu,gazapata@csumb.edu,sbharat@csumb.edu,aruval@csumb.edu,mcockman@csumb.edu,arlopez@csumb.edu arlopez@csumb.edu 1
         
         String[] groupMembers = names.split(",");
         String[] name = groupMembers[groupMembers.length - 1].split(" ");
